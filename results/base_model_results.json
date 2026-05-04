@@ -1,0 +1,82 @@
+{
+  "model": "openai/whisper-small",
+  "avg_wer": 51.65,
+  "avg_cer": 13.23,
+  "median_wer": 47.06,
+  "median_cer": 13.98,
+  "total_samples": 20,
+  "best_5": [
+    {
+      "index": 9,
+      "reference": "Yenə də, Şengen zonası bu baxımdan bir qədər tək dövlət funksiyasına malikdir.",
+      "prediction": "Yenə də Şəngin zonası bu baxımdan bir qədə tək dövlət funqüsəsində malikdir.",
+      "wer": 36.36,
+      "cer": 16.0
+    },
+    {
+      "index": 11,
+      "reference": "Sundarban dünyanın ən böyük sahilyanı manqrov bölgəsidir və sahildən Banqladeş və Hindistanın içərilərinə doğru 80 km (50 mil) uzanır.",
+      "prediction": "Sundarban dünyanın ən böyük sahiliyanı Mangurov bölgəsidir və sahildən bangaladır və hindistanın inşərlərinə doğru 60 km, 50 mil uzanır.",
+      "wer": 36.84,
+      "cer": 9.16
+    },
+    {
+      "index": 4,
+      "reference": "\"Maria\" adlanan qaranlıq qatların altında daha nazik, dağlıq yerlərin altında isə daha qalın görünür.",
+      "prediction": "Mari adlanan qaranlı qahtların altında daha naziq, dahlıq yerlərin altında isə daha qalan görünür.",
+      "wer": 38.46,
+      "cer": 6.25
+    },
+    {
+      "index": 0,
+      "reference": "Elm adamları, planetlərin, xüsusilə də quyruqlu ulduzlar uzun zaman əvvəl Yer planeti ilə toqquşduğu üçün Yer planetinin necə yarandığını başa düşməyə çalışır.",
+      "prediction": "Elim adamları planetlərin süsilə də quyruqlı ulduzlar uzun zaman əvvəl yer planeti ilə topuştubu üçün yer planetinin ne ziyarandığını başa düşməyə çalışır.",
+      "wer": 40.0,
+      "cer": 8.44
+    },
+    {
+      "index": 1,
+      "reference": "Onun 20 yaşlarında olduğu bildirilir. Biber açıqlamasında \"Bu faciəvi qəzanın birbaşa iştirakçısı olmasam da, düşüncələrim və dualarım hadisə qurbanının ailəsinin yanındadır\" dedi.",
+      "prediction": "10-20 yaşlarında olduğu bildirlir. Biber asıqlamasında bu facəv-qəzanın birbaşa iştirakçısı olmasam da, düşüncülərin və dualarım hadisə qurbanının ailəsinin yanındadır, dedir.",
+      "wer": 42.86,
+      "cer": 8.05
+    }
+  ],
+  "worst_5": [
+    {
+      "index": 7,
+      "reference": "Körpünün istifadəyə verilişi 2017-ci ilin sentyabr ayına, yəni Braziliya gömrük nəzarəti məntəqələrinin işlərini bitirəcəyi vaxta planlaşdırılır.",
+      "prediction": "Çöribünün istifadəya verilişi 2017-ci Ebrahimə, yəni, Brasi ilə gömlük nəzarəti məntəgələrinin işlərinə bitirəcəyə vəxudda planlaşdırılır.",
+      "wer": 73.33,
+      "cer": 22.7
+    },
+    {
+      "index": 16,
+      "reference": "Dünən axşam Buenos Airesdən 50 km (31 mil) məsafədə yerləşən La Plata şəhərində hazırki senator və Argentinanın birinci xanımı Kristina Fernandez de Kirçner prezidentliyə namizədliyini elan etdi.",
+      "prediction": "Dünən akşam Buena Sairesdən 50 km 31-mil məsafədə yerləşən Laplata şəhərində Hazırki Senatır Varginsinə 1. qanımı Kristina Fernandızda Kirşınır prezidentliyə namizətliyini eyalan etti.",
+      "wer": 66.67,
+      "cer": 17.19
+    },
+    {
+      "index": 3,
+      "reference": "Şou başladıqdan sadəcə 5 dəqiqə sonra külək əsməyə başladı, bir dəqiqə keçməmiş küləyin sürəti artıq saatda 70 km idi...sonra yağış gəldi, amma yağış damcıları o qədər sərt və böyük idi ki, dəriyə iynə kimi batırdı, sonrası göydən dolu yağdı, insanlar təşvişlə və bağıraraq bir-birlərinin üstündən keçərək qaçmağa başladılar.",
+      "prediction": "Şov başladığı dən sadece 5 dəyəqə sonra külləyə esməyə başladı. Bir dəyəqə keçməmiş külləyin çürət artıq sağda 70 km idi. Sonra yaqış gəldi, amma yaqış damcılar o qədər sərt və böyük idi ki, dəriyə iğne kimi batırdı. Sonrası qöydən doluyaqdı. İnsanlar təşvişlə və bağıraraq bir bilənin üstündən keçirəyə qasmağa başladılar.",
+      "wer": 65.12,
+      "cer": 12.9
+    },
+    {
+      "index": 5,
+      "reference": "ABŞ-ın Geoloji Xidmətlər Bürosunun Astrologiya Heyətindən və Arizona ştatının Flagstaff şəhərində yerləşən Şimali Arizona Universitetindən olan Qlen Kuşinqin dediyinə görə, \"onların termal hərəkətləri, Yer planetindəki kifayət qədər davamlı temperaturu tez-tez dəstəkləyən böyük mağaralarda olanlar qədər stabil deyil, ancaq bu həmin dərin dəliklərin torpaqda olması ilə əlaqəlidir\".",
+      "prediction": "Abuşun geologi xidmətlər bürosunun astrologi həyətindən ve Arizona şudatının flux-staff şəhərində iləşən şimali Arizona üniversitetinə nolan Qlyn-Kuşingindəlik nə görə, onların tərmal hərəkətləri yəgər, planetindəki kifaya qədər davamlı temperature-u deyirsiniz, dəstəkləyin böyük maharalar davlanır qədər stabil deyir. Onca bu həmin dərin dəriklərin torbaqda olması ilə lagəlidir.",
+      "wer": 62.79,
+      "cer": 15.86
+    },
+    {
+      "index": 12,
+      "reference": "O, bütün bu şayiələri \"siyasi boşboğazlıq və axmaqlıq\" adlandırdı.",
+      "prediction": "O, bütün bu şayələri siyasi boş bağızlıq və ahmulqlıq adlandırırdı.",
+      "wer": 62.5,
+      "cer": 14.75
+    }
+  ]
+}
