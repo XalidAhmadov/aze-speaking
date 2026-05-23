@@ -1,6 +1,5 @@
 # 🎙️ Azərbaycan Dili üçün Avtomatik Nitq Tanıma (ASR)
 
-AI Engineer Intern — Tapşırıq
 
 ## 📋 Layihənin Qısa İzahatı
 
