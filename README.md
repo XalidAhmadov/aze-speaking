@@ -1,7 +1,7 @@
 # 🎙️ Azərbaycan Dili üçün Avtomatik Nitq Tanıma (ASR)
 
 
-## 📋 Layihənin Qısa İzahatı
+## Layihənin Qısa İzahatı
 
 Bu layihə Google FLEURS datasetindən istifadə edərək Azərbaycan dili üçün avtomatik nitq tanıma (ASR) sistemini tətbiq edir. Layihə üç hissədən ibarətdir:
 
@@ -9,7 +9,7 @@ Bu layihə Google FLEURS datasetindən istifadə edərək Azərbaycan dili üç�
 - **Hissə B**: Fine-tuning cəhdi və müqayisə
 - **Hissə C**: Analitik hesabat
 
-## 🤖 İstifadə Olunan Model və Parametrlər
+## İstifadə Olunan Model və Parametrlər
 
 | Parametr | Dəyər |
 |----------|-------|
@@ -19,7 +19,7 @@ Bu layihə Google FLEURS datasetindən istifadə edərək Azərbaycan dili üç�
 | **Dataset** | Google FLEURS (az_az) |
 
 
-## 📊 WER/CER Nəticələri
+## WER/CER Nəticələri
 
 ### Baza Model
 
@@ -37,7 +37,7 @@ Bu layihə Google FLEURS datasetindən istifadə edərək Azərbaycan dili üç�
 
 > **Qeyd**: Cədvəllər `python run_all.py` icra edildikdən sonra `results/` qovluğunda avtomatik yaradılır.
 
-## 🚀 Kodu İşə Salmaq Üçün Addımlar
+## Kodu İşə Salmaq Üçün Addımlar
 
 ### 1. Mühit Quraşdırması
 
@@ -109,7 +109,7 @@ python visualize.py
 python generate_report.py
 ```
 
-## 📁 Layihə Strukturu
+## Layihə Strukturu
 
 ```
 az-stt-intern/
